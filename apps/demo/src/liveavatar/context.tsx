@@ -9,8 +9,7 @@ import {
   AgentEventsEnum,
 } from "@heygen/liveavatar-web-sdk";
 import { LiveAvatarSessionMessage } from "./types";
-import { API_URL } from "../../app/api/secrets";
-
+const API_URL = "https://api.liveavatar.com";
 type LiveAvatarContextProps = {
   sessionRef: React.RefObject<LiveAvatarSession>;
 
